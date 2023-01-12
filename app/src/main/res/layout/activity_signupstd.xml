@@ -1,0 +1,175 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bakgroundcol"
+    tools:context=".signupstd">
+
+    <FrameLayout
+        android:id="@+id/frameLayout4"
+        android:layout_width="309dp"
+        android:layout_height="537dp"
+        android:layout_marginTop="125sp"
+        android:background="@drawable/design"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.494"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.034">
+
+        <EditText
+            android:id="@+id/name"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:layout_marginLeft="30dp"
+            android:layout_marginTop="15dp"
+            android:layout_marginRight="30dp"
+            android:background="@drawable/edittextbg"
+            android:text="Name"
+            android:textAlignment="center"
+            android:textColor="@color/col2"
+            android:textSize="23sp"
+            android:textStyle="italic"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.493"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintVertical_bias="0.173" />
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:layout_marginLeft="30dp"
+            android:layout_marginTop="80dp"
+            android:layout_marginRight="30dp"
+            android:background="@drawable/edittextbg"
+            android:text="Branch"
+            android:textAlignment="center"
+            android:textColor="@color/col2"
+            android:textSize="23sp"
+            android:textStyle="italic"
+
+            />
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:layout_marginLeft="30dp"
+            android:layout_marginTop="150dp"
+            android:layout_marginRight="30dp"
+            android:background="@drawable/edittextbg"
+            android:text="email"
+            android:textAlignment="center"
+            android:textColor="@color/col2"
+            android:textSize="23sp"
+            android:textStyle="italic"
+
+            />
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:layout_marginLeft="30dp"
+            android:layout_marginTop="222dp"
+            android:layout_marginRight="30dp"
+            android:background="@drawable/edittextbg"
+            android:text="Subject"
+            android:textAlignment="center"
+            android:textColor="@color/col2"
+            android:textSize="23sp"
+            android:textStyle="italic"
+
+            />
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:layout_marginLeft="30dp"
+            android:layout_marginTop="295dp"
+            android:layout_marginRight="30dp"
+            android:background="@drawable/edittextbg"
+            android:text="Mobile"
+            android:textAlignment="center"
+            android:textColor="@color/col2"
+            android:textSize="23sp"
+            android:textStyle="italic"
+
+            />
+
+        <FrameLayout
+            android:id="@+id/imageuploadteacher"
+            android:layout_width="270dp"
+            android:layout_height="60dp"
+            android:layout_marginLeft="28dp"
+            android:layout_marginTop="370dp"
+            android:background="@drawable/edittextbg"
+            tools:layout_editor_absoluteX="92dp"
+            tools:layout_editor_absoluteY="205dp">
+
+            <ImageView
+                android:id="@+id/imageView"
+                android:layout_width="130dp"
+                android:layout_height="39dp"
+                android:layout_gravity="center"
+                android:layout_marginBottom="11sp"
+                app:srcCompat="@drawable/ic_baseline_cloud_upload_24" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="30dp"
+                android:text="Passport Photo"
+                android:textAlignment="center"
+
+                android:textColor="@color/col2"
+                android:textSize="20sp"
+                android:textStyle="italic" />
+
+        </FrameLayout>
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:layout_marginLeft="30dp"
+
+            android:layout_marginTop="470dp"
+            android:layout_marginRight="30dp"
+            android:backgroundTint="@color/col2"
+            android:shadowColor="@color/col2"
+
+            android:text="Sign Up"
+            android:textAlignment="center"
+            android:textSize="23sp"
+            android:textStyle="italic" />
+
+
+    </FrameLayout>
+
+    <FrameLayout
+        android:layout_width="331dp"
+        android:layout_height="60dp"
+        android:background="@drawable/profile"
+        app:layout_constraintBottom_toTopOf="@+id/frameLayout4"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.462"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.544">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            android:textStyle="italic"
+            android:text="Create Your Profile"
+            android:textAlignment="center"
+            android:textColor="@color/col1"
+            android:textSize="28dp" />
+
+    </FrameLayout>
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>
